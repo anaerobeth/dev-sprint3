@@ -21,7 +21,7 @@ def rotate_word(message, key):
     for letter in s:
         new_ord = key + ord(letter) 
         if new_ord > 122:
-            #lowerrcase letters can have ord from 65 to 90
+            #lowercase letters can have ord from 65 to 90
             new_ord = new_ord -26
             new_letter = chr(new_ord)
         else:
