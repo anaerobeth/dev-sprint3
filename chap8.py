@@ -2,7 +2,7 @@
 # Name: Elizabeth Tenorio
 
 """
-A program to encrypt a message in ROT13 by shifting a letter tthrough the alphabet 
+A program to encrypt a message in ROT13 by shifting a letter through the alphabet 
 """
 
 #ord('a') => 97
